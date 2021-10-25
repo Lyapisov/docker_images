@@ -1,7 +1,7 @@
-FROM alvrme/alpine-android:android-30
+FROM alvrme/alpine-android:android-31
 
 ENV FLUTTER_HOME=${HOME}/sdks/flutter \
-    FLUTTER_VERSION=2.5.2
+    FLUTTER_VERSION=2.5.3
 ENV FLUTTER_ROOT=$FLUTTER_HOME
 
 RUN apk add --no-cache curl sudo
